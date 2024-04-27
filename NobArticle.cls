@@ -1,6 +1,6 @@
 % Author Name: José António Portela Areia 
 % Author Contact: jose.apareia@gmail.com
-% Version: 1.0.1 - 2024/04/24
+% Version: 1.0.0 - 2024/04/27
 
 % Class Information
 \NeedsTeXFormat{LaTeX2e}
