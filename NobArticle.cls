@@ -4,7 +4,7 @@
 
 % Class Information
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{NobArticle}[2023/10/21 NobArticle Class]
+\ProvidesClass{NobArticle}[2024/04/27 NobArticle Class]
 
 % Toogle Classes/Options
 \usepackage{etoolbox} % Required for conditional logic
