@@ -14,7 +14,7 @@ To utilise this template, please follow the steps below.
     - Linux: Install [TeX-Live](https://www.tug.org/texlive/) or [MikTeX](https://miktex.org/).
     - Windows: Install [TeX-Live](https://www.tug.org/texlive/) or [MikTeX](https://miktex.org/).
     - macOS: Install [MacTeX](https://www.tug.org/mactex/) (a macOS version of TeX-Live) or [MikTeX](https://miktex.org/).
-2. Download `IPLeiria Thesis` by either:
+2. Download `Nob Article` by either:
     - Cloning this GitHub repository (<kbd>git clone https://github.com/joseareia/nob-article.git</kbd>).
     - Download the latest version as [ZIP file](https://github.com/joseareia/nob-article/archive/refs/heads/master.zip).
 3. Compile the document with you favorite LaTeX processor (pdfLaTeX, XeLaTeX or LuaLaTeX)!
