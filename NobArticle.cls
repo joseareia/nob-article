@@ -1,6 +1,6 @@
 % Author Name: José António Portela Areia 
 % Author Contact: jose.apareia@gmail.com
-% Version: 1.0.0 - 2024/04/27
+% Version: 1.0.1 - 2024/04/29
 
 % Class Information
 \NeedsTeXFormat{LaTeX2e}
@@ -106,6 +106,12 @@
 % Tables
 \usepackage{tabularx} % Table length
 \usepackage{booktabs} % Table style
+\usepackage{multirow} % Multirow
+\newcommand{\customtableformatting}{
+    \renewcommand{\arraystretch}{1.1}\footnotesize
+} % Increase space between rows and smaller font
+\AtBeginEnvironment{tabular}{\customtableformatting} % Apply to tabular
+\AtBeginEnvironment{tabularx}{\customtableformatting} % Apply to tabularx
 
 % Captions
 \usepackage{caption} % Required for customizing captions
