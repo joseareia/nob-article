@@ -8,8 +8,8 @@
 Optimize your research document creation with this LaTeX template tailored for article development, emphasizing ease of use, fast rendering, and a clean yet classic aesthetic. With its straightforward navigation, the template streamlines document creation, ensuring efficiency at every step. Intrigued? Explore the [demo](https://www.overleaf.com/latex/templates/unofficial-polytechnic-university-of-leiria-estg-thesis-slash-report-template/tqgbrncfhwgt.pdf) to discover more!
 
 <p float="left">
-  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure01.png" width="50"/>
-  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure02.png" width="50"/>
+  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure01.png" width="100"/>
+  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure02.png" width="100"/>
 </p>
 
 ### Getting Started
