@@ -7,9 +7,10 @@
 ### Description
 Optimize your research document creation with this LaTeX template tailored for article development, emphasizing ease of use, fast rendering, and a clean yet classic aesthetic. With its straightforward navigation, the template streamlines document creation, ensuring efficiency at every step. Intrigued? Explore the [demo](https://www.overleaf.com/latex/templates/unofficial-polytechnic-university-of-leiria-estg-thesis-slash-report-template/tqgbrncfhwgt.pdf) to discover more!
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![Figure01](https://github.com/joseareia/nob-article/Assets/Figure01.png)  |  ![Figure02](https://github.com/joseareia/nob-article/Assets/Figure02.png)
+<p float="left">
+  <img src="https://github.com/joseareia/nob-article/Assets/Figure01.png" width="50"/>
+  <img src="https://github.com/joseareia/nob-article/Assets/Figure02.png" width="50"/>
+</p>
 
 ### Getting Started
 To utilise this template, please follow the steps below.
