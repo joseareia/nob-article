@@ -9,7 +9,7 @@ Optimize your research document creation with this LaTeX template tailored for a
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![[Assets/Figure01.png]]  |  ![[Assets/Figure02.png]]
+![Figure01](https://github.com/joseareia/nob-article/Assets/Figure01.png)  |  ![Figure02](https://github.com/joseareia/nob-article/Assets/Figure02.png)
 
 ### Getting Started
 To utilise this template, please follow the steps below.
