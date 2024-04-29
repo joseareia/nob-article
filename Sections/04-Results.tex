@@ -1,3 +1,22 @@
 % Results
 \section{Results}
 \blindtext
+
+\begin{table}[!htpb]
+    \caption{Floating point benchmark.
+	\textbf{R$_{max}$}: the performance in GFlops for the largest problem run on a machine; \textbf{N$_{max}$}: the size of the largest problem run on a machine; \textbf{N$_{1/2}$}: the size where half the \textbf{R$_{max}$} execution rate is achieved; \textbf{R$_{peak}$}: the theoretical peak performance in GFlops for the machine.}
+    \label{tab:table-01}
+    \centering
+    \begin{tabularx}{\linewidth}{rcccc}
+        \toprule
+        \textbf{Linpack	Benchmark}& Proc. & \textbf{R$_{max}$} & \textbf{N$_{max}$} & \textbf{R$_{peak}$} \\ 
+        (Full precision) & or Cores	& GFlops & Order & GFlops \\ [0.25ex] 
+        \midrule
+        Thinking Machine CM-5 & 32 & 1,900 & 9216 & 4 \\
+        Pentium 4 3.0 GHz & 1 & 4,730 & 7600 & 6 \\
+        \multirow{2}{*}{IBM Cell BE 3.2 GHz} & \multirow{2}{*}{9} & \multirow{2}{*}{98,05} & \multirow{2}{*}{4096} & 204,8 \scriptsize{(32b)} \\
+        & & & & 14,6 \scriptsize{(64b)} \\
+        Thinking Machine SD-3 & 36 & 1,120 & 6728 & 3 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
