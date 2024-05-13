@@ -1,6 +1,6 @@
 % Author Name: José António Portela Areia 
 % Author Contact: jose.apareia@gmail.com
-% Version: 1.0.1 - 2024/04/29
+% Version: 1.0.2 - 2024/05/13
 
 % Class Information
 \NeedsTeXFormat{LaTeX2e}
@@ -198,6 +198,26 @@
 \titlespacing*{\section}{0pt}{1\baselineskip}{3pt}
 \titlespacing*{\subsection}{0pt}{1\baselineskip}{3pt}
 \titlespacing*{\subsubsection}{0pt}{1\baselineskip}{8pt}
+
+% Code highlighting and printing
+\usepackage[newfloat]{minted}
+\newenvironment{code}{\captionsetup{type=listing}}{}
+\SetupFloatingEnvironment{listing}{name=Listing}
+\captionsetup[listing]{skip=-7pt}
+\newenvironment{longlisting}{\captionsetup{type=listing}}
+
+% Define a new minted style
+\setminted{
+    frame=lines,
+    framesep=2mm,
+    baselinestretch=1,
+    fontsize=\footnotesize,
+    linenos,
+    tabsize=4,
+    breaklines=true,
+    breakanywhere=true,
+    numbersep=5pt
+}
 
 % Custom Commands
 \newcommand{\runninghead}[1]{\renewcommand{\runninghead}{\footnotesize #1}}
