@@ -5,7 +5,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green.svg)](https://github.com/joseareia/nob-article/graphs/commit-activity)
 
 ### Description
-Optimize your research document creation with this LaTeX template tailored for article development, emphasizing ease of use, fast rendering, and a clean yet classic aesthetic. With its straightforward navigation, the template streamlines document creation, ensuring efficiency at every step. Intrigued? Explore the [demo](https://www.overleaf.com/latex/templates/unofficial-polytechnic-university-of-leiria-estg-thesis-slash-report-template/tqgbrncfhwgt.pdf) to discover more!
+Optimize your research document creation with this LaTeX template tailored for article development, emphasizing ease of use, fast rendering, and a clean yet classic aesthetic. With its straightforward navigation, the template streamlines document creation, ensuring efficiency at every step. Intrigued? Explore the [demo](https://www.overleaf.com/latex/templates/nob-article-template/jxdjsvjgshfc.pdf) to discover more!
 
 <p float="left">
   <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure01.png" width="400"/>
@@ -25,7 +25,7 @@ To utilise this template, please follow the steps below.
 3. Compile the document with you favorite LaTeX processor (pdfLaTeX, XeLaTeX or LuaLaTeX)!
 
 > [!TIP]
-> To make the most of this template and for real-time collaboration, I highly recommend using [Overleaf](https://www.overleaf.com/home-2). You can access the ready-to-use template by clicking [here](https://www.overleaf.com/latex/templates/unofficial-polytechnic-university-of-leiria-estg-thesis-slash-report-template/tqgbrncfhwgt).
+> To make the most of this template and for real-time collaboration, I highly recommend using [Overleaf](https://www.overleaf.com/home-2). You can access the ready-to-use template by clicking [here](https://www.overleaf.com/latex/templates/nob-article-template/jxdjsvjgshfc).
 
 ### Content Overview
 This repository has the following structure.
