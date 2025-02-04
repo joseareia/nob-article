@@ -43,11 +43,11 @@
 \pagestyle{fancy} \fancyhf{} % Clear default style
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\footnotemargin}{6pt} % Footnote space
-\fancyhead[RO]{\small\textit{\runninghead}}
-\fancyhead[LE]{\small\textit{\runninghead}}
-\fancyfoot[RO]{\small\textbf{\thepage}}
+\fancyhead[RO]{\footnotesize\textit{\runninghead}}
+\fancyhead[LE]{\footnotesize\textit{\runninghead}}
+\fancyfoot[RO]{\footnotesize\textbf{\thepage}}
 \fancyfoot[LO]{\footnotesize\footertext}
-\fancyfoot[LE]{\small\textbf{\thepage}}
+\fancyfoot[LE]{\footnotesize\textbf{\thepage}}
 \fancyfoot[RE]{\footnotesize\footertext}
 
 % Fonts
