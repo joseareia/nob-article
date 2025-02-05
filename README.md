@@ -2,7 +2,7 @@
 [![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg?color=green&style=flat-square)](https://www.latex-project.org/)
 [![GitHub license](https://img.shields.io/badge/License-LaTeX%20v1.3c-green.svg?style=flat-square)](https://www.latex-project.org/lppl/lppl-1-3c)
 [![Release](https://img.shields.io/badge/Release-v1.0.2-green.svg?style=flat-square)](https://github.com/joseareia/nob-article/releases)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green.svg)](https://github.com/joseareia/nob-article/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square)](https://github.com/joseareia/nob-article/graphs/commit-activity)
 
 ### Description
 Optimize your research document creation with this LaTeX template tailored for article development, emphasizing ease of use, fast rendering, and a clean yet classic aesthetic. With its straightforward navigation, the template streamlines document creation, ensuring efficiency at every step. Intrigued? Explore the [demo](https://www.overleaf.com/latex/templates/nob-article-template/jxdjsvjgshfc.pdf) to discover more!
