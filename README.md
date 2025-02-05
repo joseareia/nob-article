@@ -1,5 +1,5 @@
 ## Nob Article: LaTeX Article Template
-[![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg?color=green)](https://www.latex-project.org/)
+[![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg?color=green&style=flat-square)](https://www.latex-project.org/)
 [![GitHub license](https://img.shields.io/badge/License-LaTeX%20v1.3c-green.svg)](https://www.latex-project.org/lppl/lppl-1-3c)
 [![Release](https://img.shields.io/badge/Release-v1.0.2-green.svg)](https://github.com/joseareia/nob-article/releases)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green.svg)](https://github.com/joseareia/nob-article/graphs/commit-activity)
