@@ -6,8 +6,6 @@
 [![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=flat-square)]()
 
 ## Description
-Nob is an open-source LaTeX template tailored for article development, emphasizing ease of use, fast rendering, and a clean yet classic aesthetic.</p>
-
 <p float="left">
 <a href="https://github.com/joseareia/nob-article">Nob</a> is an open-source LaTeX template tailored for article development, emphasizing ease of use, fast rendering, and a clean yet classic aesthetic. It was developed to ensure a <b>clean, aesthetically pleasing, and professional design</b> while remaining highly customizable to suit various needs. The template is also user-friendly, making it accessible even for newcomers.
 
@@ -15,8 +13,8 @@ Curious to see it in action? Check out the <a href="https://www.overleaf.com/lat
 </p>
 
 <p align="center">
-  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure01-B.png" width="350"/>
-  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure02-B.png" width="350"/>
+  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure01.png" width="375"/>
+  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure02.png" width="375"/>
 </p>
 
 ## Installation and Documentation
