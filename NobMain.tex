@@ -1,0 +1,57 @@
+% Author Name: José Areia 
+% Author Contact: jose.apareia@gmail.com
+% Version: 1.0.3 - 18/04/2025
+% Public Repository: https://github.com/joseareia/nob-article
+
+% Packages & Document Configurations
+\documentclass[twocolumn]{NobArticle}
+\runninghead{Shortened Running Article Title}
+\footertext{\textit{Journal X} (2023) 12:684}
+
+% Title
+\title{An Article Title That Spans Multiple Lines to Show Line Wrapping}
+
+% Authors
+\author{
+    Author One\textsuperscript{1,2}, 
+    Author Two\textsuperscript{3} 
+    and Author Three\textsuperscript{1}
+}
+
+% Affiliations
+\date{
+    \textsuperscript{\textbf{1}}
+    School of Computer Science, The University of City \\ \textsuperscript{\textbf{2}}
+    Computer Science Department, The University of City \\ \textsuperscript{\textbf{3}}
+    Computer Science Department, The University of Village
+}
+
+% Abstract
+\renewcommand{\maketitlehookd}{%
+\begin{abstract}
+    \noindent Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor arcu luctus, imperdiet urna iaculis, mattis eros. Pellentesque iaculis odio vel nisl ullamcorper, nec faucibus ipsum molestie. Sed dictum nisl non aliquet porttitor. Etiam vulputate arcu dignissim, finibus sem et, viverra nisl. Aenean luctus congue massa, ut laoreet metus ornare in. Nunc fermentum nisi imperdiet lectus tincidunt vestibulum at ac elit. Nulla mattis nisl eu malesuada suscipit. Aliquam arcu turpis, ultrices sed luctus ac, vehicula id metus. Morbi eu feugiat velit, et tempus augue. Proin ac mattis tortor. Donec tincidunt, ante rhoncus luctus semper, arcu lorem lobortis justo, nec convallis ante quam quis lectus. Aenean tincidunt sodales massa, et hendrerit tellus mattis ac. Sed non pretium nibh. Donec cursus maximus luctus. Vivamus lobortis eros et massa porta porttitor.
+    
+    \medskip
+
+    \small{\textbf{Index Terms:} Keyword A, Keyword B, Keyword C.}
+\end{abstract}
+}
+
+\begin{document}
+
+\small
+\maketitle
+
+\input{Sections/01-Introduction}
+\input{Sections/02-Background}
+\input{Sections/03-Methods}
+\input{Sections/04-Results}
+\input{Sections/05-Discussion}
+\input{Sections/06-Conclusion}
+
+\section*{Acknowledgements}
+This research received support during the XXX course, instructed by Professor XXX, PhD at the School of XXX, XXX.
+
+\printbibliography
+
+\end{document}
