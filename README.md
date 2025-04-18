@@ -1,46 +1,32 @@
-## Nob Article: LaTeX Article Template
-[![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg?color=green&style=flat-square)](https://www.latex-project.org/)
-[![GitHub license](https://img.shields.io/badge/License-LaTeX%20v1.3c-green.svg?style=flat-square)](https://www.latex-project.org/lppl/lppl-1-3c)
-[![Release](https://img.shields.io/badge/Release-v1.0.2-green.svg?style=flat-square)](https://github.com/joseareia/nob-article/releases)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square)](https://github.com/joseareia/nob-article/graphs/commit-activity)
+# Nob: A LaTeX Article Template
+[![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-red.svg?style=flat-square)](https://www.latex-project.org/)
+[![GitHub license](https://img.shields.io/badge/License-LPPL%20v1.3c-yellow.svg?style=flat-square)](https://www.latex-project.org/lppl/lppl-1-3c)
+[![Release](https://img.shields.io/github/v/tag/joseareia/nob-article?style=flat-square&label=Release&color=8892BF)](https://github.com/joseareia/nob-article/releases)
+[![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen.svg?style=flat-square)](https://github.com/joseareia/nob-article/graphs/commit-activity)
+[![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=flat-square)]()
 
-### Description
-Optimize your research document creation with this LaTeX template tailored for article development, emphasizing ease of use, fast rendering, and a clean yet classic aesthetic. With its straightforward navigation, the template streamlines document creation, ensuring efficiency at every step. Intrigued? Explore the [demo](https://www.overleaf.com/latex/templates/nob-article-template/jxdjsvjgshfc.pdf) to discover more!
+## Description
+Nob is an open-source LaTeX template tailored for article development, emphasizing ease of use, fast rendering, and a clean yet classic aesthetic.</p>
 
 <p float="left">
-  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure01.png" width="400"/>
-  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure02.png" width="400"/>
+<a href="https://github.com/joseareia/nob-article">Nob</a> is an open-source LaTeX template tailored for article development, emphasizing ease of use, fast rendering, and a clean yet classic aesthetic. It was developed to ensure a <b>clean, aesthetically pleasing, and professional design</b> while remaining highly customizable to suit various needs. The template is also user-friendly, making it accessible even for newcomers.
+
+Curious to see it in action? Check out the <a href="https://www.overleaf.com/latex/templates/nob-article-template/jxdjsvjgshfc" target="_blank">PDF</a> demo for a preview!
 </p>
 
-### Getting Started
-To utilise this template, please follow the steps below.
+<p align="center">
+  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure01-B.png" width="350"/>
+  <img src="https://github.com/joseareia/nob-article/blob/master/Assets/Figure02-B.png" width="350"/>
+</p>
 
-1. Download LaTeX:
-    - Linux: Install [TeX-Live](https://www.tug.org/texlive/) or [MikTeX](https://miktex.org/).
-    - Windows: Install [TeX-Live](https://www.tug.org/texlive/) or [MikTeX](https://miktex.org/).
-    - macOS: Install [MacTeX](https://www.tug.org/mactex/) (a macOS version of TeX-Live) or [MikTeX](https://miktex.org/).
-2. Download `Nob Article` by either:
-    - Cloning this GitHub repository (<kbd>git clone https://github.com/joseareia/nob-article.git</kbd>).
-    - Download the latest version as [ZIP file](https://github.com/joseareia/nob-article/archive/refs/heads/master.zip).
-3. Compile the document with you favorite LaTeX processor (pdfLaTeX, XeLaTeX or LuaLaTeX)!
+## Installation and Documentation
+This template is available online on [Overleaf](https://www.overleaf.com/latex/templates/nob-article-template/jxdjsvjgshfc), providing a **hassle-free way to compile it without the need to install any dependencies**. If you plan to use the template locally or have any questions, please refer to this [GitHub Wiki](https://github.com/joseareia/ipleiria-thesis/wiki) for comprehensive guidance. Please note that, although the Wiki belongs to another project of mine, the instructions are the same.
 
-> [!TIP]
-> To make the most of this template and for real-time collaboration, I highly recommend using [Overleaf](https://www.overleaf.com/home-2). You can access the ready-to-use template by clicking [here](https://www.overleaf.com/latex/templates/nob-article-template/jxdjsvjgshfc).
+## Getting Help
+If you have any questions regarding the template, its usage, or encounter any errors you're struggling with, please feel free to open an [issue](https://github.com/joseareia/nob-article/issues), start a new [discussion](https://github.com/joseareia/nob-article/discussions), or email me at <a href="mailto:jose.apareia@gmail.com">jose.apareia@gmail.com</a>.
 
-### Content Overview
-This repository has the following structure.
+## Contributing
+Contributions to this template are welcome! If you encounter any issues, have suggestions for improvements, or would like to add new features, please submit a [pull request](https://github.com/joseareia/nob-article/pulls). We appreciate your feedback and contributions to make this template even better.
 
-- **Bibliography**: Contains the bibliography file used for references.
-- **Sections**: Includes individual sections of the article.
-- **Figures**: Contains figures and images used in the article.
-- **NobArticle.tex**: Main LaTeX file for compiling the article content.
-- **NobArticle.cls**: LaTeX class file containing the formatting and styling specifications.
-
-### Getting Help
-If you have any questions regarding the template, its usage, or encounter any errors you're struggling with, please feel free to open an issue in this repository, or contact me via email at <a href="mailto:jose.apareia@gmail.com">jose.apareia@gmail.com</a>.
-
-### Contributing
-Contributions to this template are welcome! If you encounter any issues, have suggestions for improvements, or would like to add new features, please submit a pull request. We appreciate your feedback and contributions to make this template even better.
-
-### License
-This project is under the [LPPL 1.3c](https://www.latex-project.org/lppl/lppl-1-3c/) license.
+## License
+The **Nob Article** project is released under the terms of the [LPPL 1.3c License](https://www.latex-project.org/lppl/lppl-1-3c/).
