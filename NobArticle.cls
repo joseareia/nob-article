@@ -1,6 +1,7 @@
-% Author Name: José António Portela Areia 
+% Author Name: José Areia 
 % Author Contact: jose.apareia@gmail.com
-% Version: 1.0.2 - 2024/05/13
+% Version: 1.0.3 - 18/04/2025
+% Public Repository: https://github.com/joseareia/nob-article
 
 % Class Information
 \NeedsTeXFormat{LaTeX2e}
@@ -43,11 +44,11 @@
 \pagestyle{fancy} \fancyhf{} % Clear default style
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\footnotemargin}{6pt} % Footnote space
-\fancyhead[RO]{\footnotesize\textit{\runninghead}}
-\fancyhead[LE]{\footnotesize\textit{\runninghead}}
-\fancyfoot[RO]{\footnotesize\textbf{\thepage}}
+\fancyhead[RO]{\small\textit{\runninghead}}
+\fancyhead[LE]{\small\textit{\runninghead}}
+\fancyfoot[RO]{\small\textbf{\thepage}}
 \fancyfoot[LO]{\footnotesize\footertext}
-\fancyfoot[LE]{\footnotesize\textbf{\thepage}}
+\fancyfoot[LE]{\small\textbf{\thepage}}
 \fancyfoot[RE]{\footnotesize\footertext}
 
 % Fonts
@@ -168,56 +169,21 @@
     \setcounter{secnumdepth}{0} } % Don't number sections at any level
 {   \setcounter{secnumdepth}{3} } % Number sections down to subsubsections
 
-\titleformat
-	{\section} % Section type being modified
-	[block] % Section layout type, can be: hang, block, display, runin, leftmargin, rightmargin, drop, wrap, frame
-	{\normalsize\raggedright\bfseries} % Text formatting of the whole section, i.e. label and title
-	{\thesection} % Section label (e.g. number) and its formatting
-	{0.5em} % Horizontal space between the section label and title
-	{} % Code before the section title
-	[] % Code after the section title
+\titleformat{\section}[block]{%
+    \normalsize\raggedright\bfseries%
+}{\thesection}{0.5em}{}[]
 
-\titleformat
-    {\subsection} % Section type being modified
-    [block] % Section layout type, can be: hang, block, display, runin, leftmargin, rightmargin, drop, wrap, frame
-    {\raggedright\bfseries\itshape} % Text formatting of the whole section, i.e. label and title
-    {\thesubsection} % Section label (e.g. number) and its formatting
-    {0.5em} % Horizontal space between the section label and title
-    {} % Code before the section title
-    [] % Code after the section title
+\titleformat{\subsection}[block]{%
+    \raggedright\bfseries\itshape%
+}{\thesubsection}{0.5em}{}[]
 
-\titleformat
-	{\subsubsection} % Section type being modified
-	[runin] % Section layout type, can be: hang, block, display, runin, leftmargin, rightmargin, drop, wrap, frame
-	{\bfseries} % Text formatting of the whole section, i.e. label and title
-	{\thesubsubsection} % Section label (e.g. number) and its formatting
-	{5pt} % Horizontal space between the section label and title
-	{} % Code before the section title
-	[] % Code after the section title
+\titleformat{\subsubsection}[runin]{%
+    \bfseries%
+}{\thesubsubsection}{5pt}{}[]
 
 \titlespacing*{\section}{0pt}{1\baselineskip}{3pt}
 \titlespacing*{\subsection}{0pt}{1\baselineskip}{3pt}
 \titlespacing*{\subsubsection}{0pt}{1\baselineskip}{8pt}
-
-% Code highlighting and printing
-\usepackage[newfloat]{minted}
-\newenvironment{code}{\captionsetup{type=listing}}{}
-\SetupFloatingEnvironment{listing}{name=Listing}
-\captionsetup[listing]{skip=-7pt}
-\newenvironment{longlisting}{\captionsetup{type=listing}}
-
-% Define a new minted style
-\setminted{
-    frame=lines,
-    framesep=2mm,
-    baselinestretch=1,
-    fontsize=\footnotesize,
-    linenos,
-    tabsize=4,
-    breaklines=true,
-    breakanywhere=true,
-    numbersep=5pt
-}
 
 % Custom Commands
 \newcommand{\runninghead}[1]{\renewcommand{\runninghead}{\footnotesize #1}}
